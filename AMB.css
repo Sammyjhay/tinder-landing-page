@@ -1,0 +1,22 @@
+/*getting rid of all default margin and padding*/
+*{ margin: 0px;padding: 0px;list-style-type: none;background-repeat: no-repeat;}
+/*to center website*/
+.tired{ 
+    margin: 0px auto;width: 700px; 
+}
+header,nav,aside,footer,div,article,section{ display:block;}
+.top_nav ul li{ float: left; border:2px block red (245, 245, 245, 0.274);padding:50px 15px ; }
+.logo{ float: left;height: 150px;width: 200px; }
+.clear{ clear:both;}
+
+
+/*separating the main section from the aside */
+.right_side{ float:right; width:500px; margin-left: 40px;}
+.left_side div { float:left;width:100px; margin-right: 20px;border:1px dotted black;padding:15px; margin-top:5px ; }
+.div ul li{ padding: 5px;}
+.joy{clear:right;padding: 100px 0px 0px 150px; }
+ 
+#futa p::first-line{color: royalblue;
+    font:500px italic 20px Arial;}
+.tired ul li a{ margin:5px; border:2px block black; padding: 3px;  background-color:gold; border-radius: 3px; }
+.social ul li a{ background-color: white;  padding:4px 0px 4px 0px;       }
